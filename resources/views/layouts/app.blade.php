@@ -15,6 +15,5 @@
 </head>
 <body>
     @yield('content')
-{{--sssssss--}}
 </body>
 </html>
