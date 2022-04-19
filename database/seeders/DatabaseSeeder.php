@@ -2,8 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\AdminUser;
-use Database\Factories\AdminUserFactory;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -16,12 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         \App\Models\User::factory(10)->create();
-
-         AdminUser::factory(1)->create([
-             "name" => "Admin",
-             "email" => "facyoucraft@gmail.com",
-             "password" => bcrypt("12345")
-         ]);
+        // \App\Models\User::factory(10)->create();
     }
 }

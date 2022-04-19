@@ -7,11 +7,6 @@
                 <li><a href="pages/about.php">About</a></li>
             </ul>
         </nav>
-        @auth("web")
-            <a class="btn-login" href="{{route("logout")}}">Sign in</a>
-        @endauth
-        @guest("web")
-            <a class="btn-reg" href="{{route("register")}}">Create</a>
-            <a class="btn-login" href="{{route("login")}}">Sign in</a>
-        @endguest
+        <a class="btn-reg" href="registration">Create</a>
+        <a class="btn-login" href="pages/signup.php">Sign in</a>
 </header>
