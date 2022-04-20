@@ -8,7 +8,7 @@
             </ul>
         </nav>
         @auth("web")
-            <a class="btn-login" href="{{route("logout")}}">Sign in</a>
+            <a class="btn-login" href="{{route("logout")}}">Log out</a>
         @endauth
         @guest("web")
             <a class="btn-reg" href="{{route("register")}}">Create</a>
