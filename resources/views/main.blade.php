@@ -7,7 +7,7 @@
             <h1>Discover, collect,  and charity in extraordinary NFT marketplace</h1>
             <p>In aenean posuere lorem risus nec. Tempor tincidunt aenean purus purus vestibulum nibh mi venenatis</p>
             <a href="#" class="btn-explore">Explore</a>
-            <a href="#" class="btn-create">Create</a>
+            <a href="{{route("register")}}" class="btn-create">Create</a>
         </div>
         <div class="main__nft">
             <div class="main__nft-box">

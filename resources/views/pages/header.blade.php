@@ -1,5 +1,5 @@
 <header>
-        <a href="../"><img src="/img/Rolling.svg" alt="Logo"></a>
+        <a href="{{route("home")}}"><img src="/img/Rolling.svg" alt="Logo"></a>
         <nav>
             <ul class="nav__links">
                 <li><a href="pages/services.php">Services</a></li>

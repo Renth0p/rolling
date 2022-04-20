@@ -24,6 +24,9 @@ Route::middleware("guest")->group(function (){
 
     Route::get('/login', [\App\Http\Controllers\AuthController::class, 'ShowLoginForm'])->name('login');
     Route::post('/login_process', [\App\Http\Controllers\AuthController::class, 'login'])->name('login_process');
+
+    Route::get('/forgot', [\App\Http\Controllers\AuthController::class, 'ShowForgotForm'])->name('forgot');
+    Route::post('/forgot_process', [\App\Http\Controllers\AuthController::class, 'forgot'])->name('forgot_process');
 });
 
 Route::get('/contacts', [\App\Http\Controllers\IndexController::class, 'showContactForm'])->name('contacts');

@@ -16,6 +16,9 @@
             <p class="text-red-500">{{ $message }}</p>
             @enderror
             <button type="submit">Войти</button>
+
+            <a href="{{route("forgot")}}">Забыли пароль?</a>
+
             <p>
                 У вас нет аккаунта? - <a href="{{route("register")}}">Зарегистрируйтесь!</a>
             </p>
