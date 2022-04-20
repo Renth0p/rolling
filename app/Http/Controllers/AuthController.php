@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use Illuminate\Http\Request;
 
 class AuthController extends Controller
@@ -12,26 +11,11 @@ class AuthController extends Controller
         return view("auth.login");
     }
 
-    public function login(Request $request)
-    {
-        $data = $request->validate([
-            "name" => ["required", "string"],
-            "password" => ["required"]
-        ]);
-
-        if(auth("web")->attempt($data)) {
-
-            return redirect(route('home'));
-        }
-
-        return redirect(route('login'))->withErrors(["email" => "Password or username is not correct"]);
-    }
-
     public function logout()
     {
         auth("web")->logout();
 
-        return redirect(route('home'));
+        return redirect(route("main"));
     }
 
     public function showRegisterForm()
@@ -57,6 +41,6 @@ class AuthController extends Controller
             auth("web")->login($user);
         }
 
-        return redirect(route('home'));
+        return redirect(route("main"));
     }
 }

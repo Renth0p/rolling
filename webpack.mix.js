@@ -11,12 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.sass('resources/sass/404.scss', 'public/css')
-    .sass('resources/sass/base.scss', 'public/css')
-    .sass('resources/sass/footer.scss', 'public/css')
-    .sass('resources/sass/header.scss', 'public/css')
-    .sass('resources/sass/main.scss', 'public/css')
-    .sass('resources/sass/auth.scss', 'public/css')
-
-mix.js('resources/js/slider.js', 'public/js')
-    .js('resources/js/timer.js', 'public/js');
+mix.js('resources/js/app.js', 'public/js')
+    .postCss('resources/css/app.css', 'public/css', [
+        //
+    ]);

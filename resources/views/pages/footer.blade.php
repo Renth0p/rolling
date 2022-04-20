@@ -6,7 +6,7 @@
         <div class="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms & Conditions</a>
-            <a href="{{ route("contacts") }}">Contact Us</a>
+            <a href="#">Contact Us</a>
         </div>
         <div class="footer-updown">
             <p>© 2022 Rolling NFT Marketplace - Company No. 08512314, Bratskiy 44, Rostov-On-Don, 863, RU.
