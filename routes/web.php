@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/registration', function () {
     return view('pages/registration');
 });
+
+Route::get('/login', [\App\Http\Controllers\AuthController::class, 'ShowLoginForm'])->name('login');
+Route::get('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
+
+Route::get('/register', [\App\Http\Controllers\AuthController::class, 'ShowRegisterForm'])->name('register');
+Route::post('/register_process', [\App\Http\Controllers\AuthController::class, 'register'])->name('register_process');

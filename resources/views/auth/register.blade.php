@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div class="wrapper">
+        @include('pages/header')
         <form action="{{ route("register_process") }}" method="post">
             @csrf
             <label>Регистрация</label>
@@ -26,5 +27,6 @@
                 У вас уже есть аккаунт? - <a href="{{route("login")}}">Авторизируйтесь!</a>
             </p>
         </form>
+        @include('pages/footer')
     </div>
 @endsection
