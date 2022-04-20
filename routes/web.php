@@ -26,4 +26,5 @@ Route::middleware("guest")->group(function (){
     Route::post('/login_process', [\App\Http\Controllers\AuthController::class, 'login'])->name('login_process');
 });
 
-
+Route::get('/contacts', [\App\Http\Controllers\IndexController::class, 'showContactForm'])->name('contacts');
+Route::post('/contact_form_process', [\App\Http\Controllers\IndexController::class, 'contactForm'])->name('contact_form_process');
