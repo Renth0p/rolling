@@ -21,7 +21,7 @@ mix.sass('resources/sass/404.scss', 'public/css')
     .sass('resources/sass/footer.scss', 'public/css')
     .sass('resources/sass/header.scss', 'public/css')
     .sass('resources/sass/main.scss', 'public/css')
-    .sass('resources/sass/reg.scss', 'public/css')
+    .sass('resources/sass/auth.scss', 'public/css')
 
 mix.js('resources/js/slider.js', 'public/js')
     .js('resources/js/timer.js', 'public/js');
