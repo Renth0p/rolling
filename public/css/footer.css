@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  list-style: none;
+}
+
+body, html {
+  background-color: #0A0A0F;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 70px;
+}
+footer .footer-content {
+  border-top: 1px solid #E2E2E2;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-content p {
+  margin-top: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  max-width: 820px;
+}
+footer .footer-content button {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 196px;
+  height: 64px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+footer .footer-content button:hover {
+  background-color: #a018c2;
+}
+footer .footer-content a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .footer-content .footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .footer-content .footer-links a {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+footer .footer-content .footer-links a:hover {
+  color: #a018c2;
+}
+footer .footer-content .footer-updown p {
+  color: #3F3F53;
+  max-width: 520px;
+  font-size: 12px;
+}

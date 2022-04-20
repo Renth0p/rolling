@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  list-style: none;
+}
+
+body, html {
+  background-color: #0A0A0F;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 102px;
+  display: flex;
+  justify-content: space-between;
+}
+main .main__desc h1 {
+  width: 637px;
+  height: 328px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 82px;
+  letter-spacing: -2px;
+}
+main .main__desc p {
+  margin-top: 20px;
+  width: 687px;
+  height: 108px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #E2E2E2;
+}
+main .main__desc .btn-explore {
+  padding: 14px 56px;
+  background: linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%);
+  border-radius: 16px;
+  font-size: 18px;
+}
+main .main__desc .btn-create {
+  margin-left: 20px;
+  background-color: transparent;
+  padding: 14px 56px;
+  border: 1px solid #D7D7D7;
+  border-radius: 16px;
+  font-size: 18px;
+}
+main .main__nft .main__nft-box {
+  width: 504px;
+  height: 650px;
+  background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.08) 1.85%, rgba(65, 48, 90, 0.08) 98.72%);
+  -webkit-backdrop-filter: blur(1110px);
+          backdrop-filter: blur(1110px);
+  border-radius: 36px;
+}
+main .main__nft .main__nft-box .main__nft-box_img {
+  padding: 32px 30px;
+}
+main .main__nft .main__nft-box .main__nft-box_img img {
+  width: 447px;
+  height: 448px;
+}
+main .main__nft .main__nft-box .main__nft-box-title {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+main .main__nft .main__nft-box .main__nft-box-title p:last-child {
+  margin-left: 230px;
+}
+main .main__nft .main__nft-box .main__nft-box_content {
+  display: flex;
+  align-items: center;
+}
+main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_profile {
+  display: flex;
+  padding-left: 30px;
+}
+main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_profile p {
+  margin-left: 20px;
+}
+main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_favourite {
+  display: flex;
+  padding-left: 260px;
+}
+main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_favourite p {
+  margin-left: 12px;
+}
+
+.live_auction {
+  margin-top: 90px;
+}
+.live_auction .live_auction-header {
+  display: flex;
+  justify-content: space-between;
+}
+.live_auction .live_auction-header h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+}
+.live_auction .live_auction-header p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #E2E2E2;
+}
+.live_auction .live_auction-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.live_auction .live_auction-cards .live_auction-card {
+  width: 316px;
+  height: 456px;
+  border-radius: 16px;
+}
+.live_auction .live_auction-cards .live_auction-card-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E2E2E2;
+}
+.live_auction .live_auction-cards .live_auction-card-desc {
+  display: flex;
+  justify-content: space-between;
+}
+.live_auction .live_auction-cards .live_auction-card-desc .live_auction_btn {
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  line-height: 24px;
+  color: #E2E2E2;
+  cursor: pointer;
+}
+
+.featured {
+  margin-top: 40px;
+}
+.featured .featured-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.featured .featured-header h4 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+}
+.featured .featured-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.featured .featured-wrap .featured-card {
+  width: calc(20% - 0.5rem);
+  margin-right: 5rem;
+  margin-bottom: 7rem;
+}
+.featured .featured-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+.featured .featured-btn button {
+  border: 1px solid #AEAEB2;
+  box-sizing: border-box;
+  border-radius: 48px;
+  background-color: transparent;
+  padding: 12px 60px;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

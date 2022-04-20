@@ -1,0 +1,72 @@
+@import "base.scss";
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+    .logo {
+        margin-right: auto;
+        color: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    nav {
+
+        margin-left: auto;
+        margin-right: auto;
+
+        .nav__links {
+            list-style: none;
+            display: flex;
+
+            
+            a {
+                font-size: 12px;
+                line-height: 22px;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                color: #BCBCBC;
+
+                &:hover {
+                    color: $hovertext;
+                }
+            }
+
+            li {
+                padding: 0 20px;
+            }
+        }
+    }
+
+    .btn-reg {
+        background-color: transparent;
+        padding: 12px 36px;
+        border: 1px solid #D7D7D7;
+        border-radius: 10px;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #BCBCBC;
+
+        &:hover {
+            box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+        }
+    }
+
+    .btn-login {
+        margin-left: 50px;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #BCBCBC;
+
+        &:hover {
+            color: $hovertext;
+        }
+    }
+}

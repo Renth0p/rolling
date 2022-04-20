@@ -1,0 +1,66 @@
+@import "base.scss";
+
+footer {
+    text-align: center;
+    margin-top: 70px;
+
+    .footer-content {
+        border-top: 1px solid $greycolor;
+        display: flex;
+        flex-direction: column;
+
+        p {
+            margin-top: 46px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 15px;
+            line-height: 24px;
+            font-weight: normal;
+            max-width: 820px;
+        }
+
+        button {
+            margin-top: 22px;
+            margin-bottom: 22px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 196px;
+            height: 64px;
+            background-color: transparent;
+            border: 1px solid #FFFFFF;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $hovertext;
+            }
+        }
+
+        a {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            a {
+                margin-left: 50px;
+                margin-right: 50px;
+
+                &:hover {
+                    color: $hovertext;
+                }
+            }
+        }
+
+        .footer-updown {
+            p {
+                color: #3F3F53;
+                max-width: 520px;
+                font-size: 12px;
+            }
+        }
+    }
+}
