@@ -1,0 +1,88 @@
+@import "base";
+
+$blockcolor: #131313;
+$bordercolor: #3D3D3D;
+$bordercolorhover: #4B72C2;
+
+.striped-container {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 800px;
+    border-radius: 40px;
+    background-color: $blockcolor;
+
+    .reg_from {
+        display: flex;
+        flex-direction: column;
+        padding: 0 140px;
+    }
+
+    input {
+        width: 800px;
+        height: 48px;
+        padding-left: 20px;
+        background: transparent;
+        border: 1px solid $bordercolor;
+        outline: none;
+
+        &:hover {
+            border: 1px solid $bordercolorhover;
+        }
+
+    }
+
+    h1 {
+        margin-top: 80px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .striped__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #7F7F7F;
+        margin-bottom: 26px;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 200px;
+        height: 48px;
+        border: 1px solid #FFFFFF;
+        background: transparent;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $bordercolorhover;
+        }
+    }
+
+    .forget_pass {
+        margin-top: 20px;
+        border-top: 1px solid #3D3D3D;
+
+        p {
+            padding-top: 30px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7F7F7F;
+        }
+
+        .auth {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7F7F7F;
+            color: #4B72C2;
+        }
+    }
+}
