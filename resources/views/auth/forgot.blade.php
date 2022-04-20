@@ -1,5 +1,5 @@
 @extends('auth.layouts.app')
-@section('content')
+@section('regauth')
     <div class="wrapper">
         @include('pages/header')
         <form method="post" action="{{ route("forgot_process") }}">
