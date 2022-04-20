@@ -1,5 +1,5 @@
-@extends('layouts.app')
-@section('content')
+@extends('auth.layouts.app')
+@section('regauth')
     <div class="wrapper">
         @include('pages.header')
         <form action="{{ route("contact_form_process") }}" method="post">
