@@ -2,9 +2,10 @@
 @section('regauth')
     <div class="wrapper">
         @include('pages.header')
-        <form action="{{ route("contact_form_process") }}" method="post">
+        <h1>Contact us</h1>
+        <div class="border"></div>
+        <form action="{{ route("contact_form_process") }}" method="post" class="contactus_form">
             @csrf
-            <label>Тех. поддержка</label>
             <input type="email" name="email" placeholder="Email" required><br>
             @error('email')
              <p>{{ $email }}</p>
