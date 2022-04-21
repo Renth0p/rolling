@@ -167,7 +167,7 @@ main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_favourite p
 .featured .cards .card {
   position: relative;
   display: block;
-  height: 420px;
+  height: 450px;
   border-radius: 40px;
   overflow: hidden;
 }
