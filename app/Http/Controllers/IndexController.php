@@ -14,6 +14,21 @@ class IndexController extends Controller
         return view('main');
     }
 
+    public function aboutpage()
+    {
+        return view('about');
+    }
+
+    public function projectspage()
+    {
+        return view('projects');
+    }
+
+    public function servivepage()
+    {
+        return view('service');
+    }
+
     public function showContactForm()
     {
         return view("contact_form");

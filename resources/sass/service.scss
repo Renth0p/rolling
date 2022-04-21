@@ -1,0 +1,25 @@
+@import "base";
+
+.service__page {
+    .service__page-main-text {
+        margin-top: 90px;
+        text-align: center;
+
+        .service__page-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #9130ab;
+        }
+
+        .service__page-desc {
+            font-size: 52px;
+            font-weight: normal;
+        }
+
+        .service__page-text {
+            font-size: 18px;
+            font-weight: normal;
+            color: #3F3F53;
+        }
+    }
+}
