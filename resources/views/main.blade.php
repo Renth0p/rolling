@@ -90,155 +90,188 @@
         <div class="featured-header">
             <h4>Featured ✨</h4>
         </div>
-        <div class="featured-wrap">
+        <div class="cards">
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/33/ab/82/33ab82a20c241c6c4fc4e680bee8ec2c.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-3.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">SHIVERING DOG CLAN</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/33/ab/82/33ab82a20c241c6c4fc4e680bee8ec2c.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-3.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">SHIVERING DOG CLAN</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/33/ab/82/33ab82a20c241c6c4fc4e680bee8ec2c.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-3.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">SHIVERING DOG CLAN</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/33/ab/82/33ab82a20c241c6c4fc4e680bee8ec2c.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-3.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">SHIVERING DOG CLAN</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-card">
-                <img src="img/nft/nft_4.svg" alt="NFT PICTURE">
-                <div class="live_auction-card-title">
-                    <p>Lorem Ipsum</p>
-                    <p>1.20 Weth</p>
+            <article class="card">
+                <img src="https://i.pinimg.com/564x/f9/55/f5/f955f56ca6408d6ff5fcf202f8a0af84.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                    <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <img class="card__thumb" src="img/profile-pic/profile-2.svg" alt="" />
+                        <div class="card__header-text">
+                            <h3 class="card__title">Jessica Parker</h3>
+                            <span class="card__tagline">QUAINT RHINOCEROS SQUAD</span>
+                        </div>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
                 </div>
-                <div class="live_auction-card-desc">
-                    <p id="price_4"></p>
-                    <button class="live_auction_btn">Bid</button>
-                </div>
-            </div>
+            </article>
 
-            <div class="featured-btn">
-                <button>Load More</button>
-            </div>
         </div>
     </section>
     @include('pages.footer')

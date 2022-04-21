@@ -49,7 +49,7 @@ footer .footer-content button {
   cursor: pointer;
 }
 footer .footer-content button:hover {
-  background-color: #a018c2;
+  background-color: #9130ab;
 }
 footer .footer-content a {
   margin-top: 20px;
@@ -65,7 +65,7 @@ footer .footer-content .footer-links a {
   margin-right: 50px;
 }
 footer .footer-content .footer-links a:hover {
-  color: #a018c2;
+  color: #9130ab;
 }
 footer .footer-content .footer-updown p {
   color: #3F3F53;
