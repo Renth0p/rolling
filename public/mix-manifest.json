@@ -1,10 +1,13 @@
 {
     "/js/timer.js": "/js/timer.js",
+    "/js/faq.js": "/js/faq.js",
     "/css/main.css": "/css/main.css",
     "/css/header.css": "/css/header.css",
     "/css/footer.css": "/css/footer.css",
     "/css/base.css": "/css/base.css",
     "/css/404.css": "/css/404.css",
+    "/css/about.css": "/css/about.css",
+    "/css/animation.css": "/css/animation.css",
     "/css/contactpage.css": "/css/contactpage.css",
     "/css/service.css": "/css/service.css",
     "/css/auth.css": "/css/auth.css"

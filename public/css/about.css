@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  list-style: none;
+}
+
+body, html {
+  background-color: #0A0A0F;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.faq-content .faq-heading {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+.faq-content .faq-card {
+  border: 1px solid #dce0e8;
+  border-radius: 6px;
+  padding: 24px 20px;
+  margin-bottom: 22px;
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+}
+.faq-content .faq-open-icon {
+  font-size: 22px;
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  font-weight: 700;
+}
+.faq-content details[open] .faq-open-icon {
+  top: 18px;
+  right: 24px;
+}
+.faq-content details > summary {
+  list-style: none;
+}
+.faq-content details > summary::-webkit-details-marker {
+  display: none;
+}
+.faq-content details[open] summary {
+  color: #6d16d5;
+  font-weight: 500;
+}
+.faq-content details[open] .faq-card-spoiler {
+  display: inline-block;
+  padding-top: 8px;
+  color: #8b8b9a;
+}
+.faq-content .faq-aftertext {
+  text-align: center;
+  color: #8b8b9a;
+}

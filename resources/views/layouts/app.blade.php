@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/contactpage.css">
     <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="shortcut icon" href="img/favicons/icon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
