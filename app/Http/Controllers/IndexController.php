@@ -34,6 +34,16 @@ class IndexController extends Controller
         return view("contact_form");
     }
 
+    public function privacypage()
+    {
+        return view("privacy");
+    }
+
+    public function termspage()
+    {
+        return view("terms");
+    }
+
     public function contactForm(ContactFormRequest $request)
     {
         Mail::to("tofikdipsize1337228@yandex.ru")->send(new ContactForm($validated = $request->validated()));

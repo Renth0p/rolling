@@ -275,10 +275,28 @@
 
         </div>
     </section>
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
     @include('pages.footer')
 </div>
 <script src="https://kit.fontawesome.com/362e1a3315.js" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        function toggleNavbarMethod() {
+            if ($(window).width() > 992) {
+                $('.navbar .dropdown').on('mouseover', function () {
+                    $('.dropdown-toggle', this).trigger('click');
+                }).on('mouseout', function () {
+                    $('.dropdown-toggle', this).trigger('click').blur();
+                });
+            } else {
+                $('.navbar .dropdown').off('mouseover').off('mouseout');
+            }
+        }
+        toggleNavbarMethod();
+        $(window).resize(toggleNavbarMethod);
+    });
+</script>
 <script src="js/btnup.js"></script>
-<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/timer.js"></script>
 @endsection
