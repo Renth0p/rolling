@@ -19,6 +19,18 @@ body, html {
   margin: 0 auto;
 }
 
+@media all and (max-width: 1280px) and (orientation: landscape) {
+  .wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 960px) and (orientation: landscape) {
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
 main {
   margin-top: 102px;
   display: flex;
@@ -256,4 +268,18 @@ main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_favourite p
   background-color: transparent;
   padding: 12px 60px;
   cursor: pointer;
+}
+
+.contactus__title {
+  font-size: 29px;
+  justify-content: center;
+  text-align: center;
+}
+
+.border-red-500 {
+  border: 1px solid #ce1d1d !important;
+}
+
+.text-red-500 {
+  color: #ce1d1d;
 }

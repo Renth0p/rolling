@@ -2,7 +2,7 @@
 @section('regauth')
     <div class="wrapper">
         @include('pages.header')
-        <h1>Contact us</h1>
+        <h1 class="contactus__title">Contact us</h1>
         <div class="border"></div>
         <form action="{{ route("contact_form_process") }}" method="post" class="contactus_form">
             @csrf

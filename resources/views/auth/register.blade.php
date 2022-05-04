@@ -18,8 +18,8 @@
             @error('password')
             <p class="text-red-500">{{ $message }}</p>
             @enderror
-            <input type="password" name="password_confirmation" placeholder="Password confirm" class="@error('password_confirmation') border-red-500 @enderror"><br>
-            @error('password_confirmation')
+            <input type="password" name="password_confirmation" placeholder="Password confirm" class="@error('password') border-red-500 @enderror"><br>
+            @error('password')
             <p class="text-red-500">{{ $message }}</p>
             @enderror
             <button type="submit">Sign in</button>
