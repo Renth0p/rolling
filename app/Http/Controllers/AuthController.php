@@ -26,7 +26,7 @@ class AuthController extends Controller
             return redirect(route('home'));
         }
 
-        return redirect(route('login'))->withErrors(["email" => "Password or username is not correct"]);
+        return redirect(route('login'))->withErrors(["name" => "Password or username is not correct"]);
     }
 
     public function logout()
