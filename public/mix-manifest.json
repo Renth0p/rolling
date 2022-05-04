@@ -1,5 +1,6 @@
 {
     "/js/timer.js": "/js/timer.js",
+    "/js/timeline.js": "/js/timeline.js",
     "/js/faq.js": "/js/faq.js",
     "/css/main.css": "/css/main.css",
     "/css/header.css": "/css/header.css",
@@ -7,6 +8,8 @@
     "/css/base.css": "/css/base.css",
     "/css/404.css": "/css/404.css",
     "/css/about.css": "/css/about.css",
+    "/css/adaptation.css": "/css/adaptation.css",
+    "/css/project.css": "/css/project.css",
     "/css/contactpage.css": "/css/contactpage.css",
     "/css/service.css": "/css/service.css",
     "/css/auth.css": "/css/auth.css"

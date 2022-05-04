@@ -58,7 +58,7 @@ header nav .nav__links a {
   color: #BCBCBC;
 }
 header nav .nav__links a:hover {
-  color: #9130ab;
+  color: #b654d2;
 }
 header nav .nav__links li {
   padding: 0 20px;
@@ -86,5 +86,5 @@ header .btn-login {
   color: #BCBCBC;
 }
 header .btn-login:hover {
-  color: #9130ab;
+  color: #b654d2;
 }

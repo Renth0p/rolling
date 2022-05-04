@@ -85,6 +85,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/project.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/project.scss ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/adaptation.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/adaptation.scss ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/about.scss":
 /*!***********************************!*\
   !*** ./resources/sass/about.scss ***!
@@ -256,6 +282,8 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			"css/base": 0,
 /******/ 			"css/404": 0,
 /******/ 			"css/about": 0,
+/******/ 			"css/adaptation": 0,
+/******/ 			"css/project": 0,
 /******/ 			"css/contactpage": 0,
 /******/ 			"css/service": 0,
 /******/ 			"css/auth": 0
@@ -308,16 +336,18 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/js/timer.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/404.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/base.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/footer.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/header.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/main.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/auth.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/service.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/contactpage.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/about.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/js/timer.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/404.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/base.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/footer.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/header.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/main.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/auth.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/service.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/contactpage.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/project.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/adaptation.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main","css/header","css/footer","css/base","css/404","css/about","css/adaptation","css/project","css/contactpage","css/service","css/auth"], () => (__webpack_require__("./resources/sass/about.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

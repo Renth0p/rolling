@@ -49,17 +49,6 @@ footer .footer-content p {
   font-weight: normal;
   max-width: 820px;
 }
-footer .footer-content button {
-  margin: 22px auto 22px auto;
-  width: 196px;
-  height: 64px;
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-  cursor: pointer;
-}
-footer .footer-content button:hover {
-  background-color: #9130ab;
-}
 footer .footer-content a {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -74,7 +63,7 @@ footer .footer-content .footer-links a {
   margin-right: 50px;
 }
 footer .footer-content .footer-links a:hover {
-  color: #9130ab;
+  color: #b654d2;
 }
 footer .footer-content .footer-updown p {
   color: #3F3F53;

@@ -24,7 +24,10 @@ mix.sass('resources/sass/404.scss', 'public/css')
     .sass('resources/sass/auth.scss', 'public/css')
     .sass('resources/sass/service.scss', 'public/css')
     .sass('resources/sass/contactpage.scss', 'public/css')
+    .sass('resources/sass/project.scss', 'public/css')
+    .sass('resources/sass/adaptation.scss', 'public/css')
     .sass('resources/sass/about.scss', 'public/css')
 
 mix.js('resources/js/timer.js', 'public/js')
+    .js('resources/js/timeline.js', 'public/js')
     .js('resources/js/faq.js', 'public/js');

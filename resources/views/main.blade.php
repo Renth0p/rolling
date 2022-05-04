@@ -276,5 +276,8 @@
     </section>
     @include('pages.footer')
 </div>
-    <script src="js/timer.js"></script>
+<script src="https://kit.fontawesome.com/362e1a3315.js" crossorigin="anonymous"></script>
+<script src="js/btnup.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/timer.js"></script>
 @endsection
