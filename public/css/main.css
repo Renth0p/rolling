@@ -116,6 +116,7 @@ main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_favourite p
 .live_auction .live_auction-header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 .live_auction .live_auction-header h2 {
   font-weight: 600;
@@ -137,6 +138,9 @@ main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_favourite p
   width: 316px;
   height: 456px;
   border-radius: 16px;
+}
+.live_auction .live_auction-cards .live_auction-card:hover {
+  transform: translateY(-30px);
 }
 .live_auction .live_auction-cards .live_auction-card-title {
   display: flex;
@@ -282,4 +286,50 @@ main .main__nft .main__nft-box .main__nft-box_content .main__nft-box_favourite p
 
 .text-red-500 {
   color: #ce1d1d;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.privacy__block h1 {
+  font-size: 20px;
+  font-style: normal;
+  color: #b654d2;
+  text-decoration: underline;
+}
+.privacy__block h2 {
+  font-size: 20px;
+  font-style: normal;
+  color: #b654d2;
+  text-decoration: underline;
+}
+.privacy__block .privacy__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.terms__block h1 {
+  font-size: 20px;
+  font-style: normal;
+  color: #b654d2;
+  text-decoration: underline;
+}
+.terms__block h2 {
+  font-size: 20px;
+  font-style: normal;
+  color: #b654d2;
+  text-decoration: underline;
+}
+.terms__block p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
 }
