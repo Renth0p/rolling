@@ -26,10 +26,15 @@
 
 
             <nav class="mt-10">
-                <a href="{{-- {{ route('admin.admin_users.index') }} --}}"
+                <a href="{{ route('admin.users.index') }}"
                    class="text-gray-100 flex items-center mt-4 py-2 px-6">
 
                     <span class="mx-3">Пользователи</span>
+                </a>
+                <a href="/admin/adminUsers/"
+                   class="text-gray-100 flex items-center mt-4 py-2 px-6">
+
+                    <span class="mx-3">Админ пользователи</span>
                 </a>
             </nav>
         </div>
@@ -50,7 +55,7 @@
                         <button @click="dropdownOpen = ! dropdownOpen"
                                 class="relative block h-8 w-8 rounded-full overflow-hidden shadow focus:outline-none">
                             <img class="h-full w-full object-cover"
-                                 src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=296&amp;q=80"
+                                 src="https://i.pinimg.com/736x/a8/42/53/a8425381bf9bb3b20a91460bd7ca40c7.jpg"
                                  alt="Your avatar">
                         </button>
 

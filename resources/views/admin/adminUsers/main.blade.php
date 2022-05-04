@@ -1,13 +1,13 @@
 @extends('admin.layout.app')
 
-@section('title', 'Админ Панель')
+@section('title', 'Администраторы')
 
 @section('content')
     <div class="container mx-auto px-6 py-8">
-        <h3 class="text-gray-700 text-3xl font-medium">Пользователи</h3>
+        <h3 class="text-gray-700 text-3xl font-medium">Администраторы</h3>
 
         <div class="mt-8">
-            <a href="{{ route("admin.users.create") }}" class="text-indigo-600 hover:text-indigo-900">Добавить</a>
+            <a href="{{ route("admin.adminUsers.create") }}" class="text-indigo-600 hover:text-indigo-900">Добавить</a>
         </div>
 
         <div class="flex flex-col mt-8">
@@ -22,7 +22,6 @@
                             <th class="px-6 py-3 border-b border-gray-200 bg-gray-50"></th>
                         </tr>
                         </thead>
-
                         <tbody class="bg-white">
                         @foreach($users as $user)
                             <tr>
@@ -31,9 +30,9 @@
                                 </td>
 
                                 <td class="px-6 py-4 whitespace-no-wrap text-right border-b border-gray-200 text-sm leading-5 font-medium">
-                                    <a href="{{ route("admin.users.edit", $user->id) }}" class="text-indigo-600 hover:text-indigo-900">Редактировать</a>
+                                    <a href="{{ route("admin.adminUsers.edit", $user->id) }}" class="text-indigo-600 hover:text-indigo-900">Редактировать</a>
 
-                                    <form action="{{ route("admin.users.destroy", $user->id) }}" method="post">
+                                    <form action="{{ route("admin.adminUsers.destroy", $user->id) }}" method="POST">
                                         @csrf
 
                                         @method('DELETE')
@@ -47,7 +46,7 @@
                         </tbody>
                     </table>
 
-                     {{ $users->links() }}
+{{--                    {{ $users->links() }}--}}
                 </div>
             </div>
         </div>

@@ -3,13 +3,13 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\AdminUser;
 use App\Models\User;
 use Illuminate\Http\Request;
-use App\Http\Requests\Admin\UserFormRequest;
+use App\Http\Requests\Admin\AdminFormRequest;
 use Illuminate\Support\Facades\DB;
 
-
-class UserController extends Controller
+class AdminUserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,62 +18,53 @@ class UserController extends Controller
      */
     public function index()
     {
-        $users = User::orderBy("created_at", "DESC")->paginate(10);
-        return view("admin.users.index", [
+        $users = AdminUser::orderBy("created_at", "DESC")->paginate(3);
+
+        return view("admin.adminUsers.main", [
             "users" => $users,
         ]);
+
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     * @return \Illuminate\Http\Response
      */
     public function create()
     {
-        return view("admin.users.create");
+        return view("admin.adminUsers.create");
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     * @param  AdminFormRequest  $request
+     * @return \Illuminate\Http\Response
      */
-    public function store(UserFormRequest $request)
+    public function store(AdminFormRequest $request)
     {
         $data = $request->validated();
-        User::create([
+        AdminUser::create([
             "name" => $data["name"],
             "email" => $data["email"],
             "password" => bcrypt($data["password"])
         ]);
 
-        return redirect(route("admin.users.index"));
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
+        return redirect("/admin/adminUsers/");
     }
 
     /**
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        $user = User::findOrFail($id);
+        $user = AdminUser::findOrFail($id);
 
-        return view("admin.users.create", [
+        return view("admin.adminUsers.create", [
             'user' => $user,
         ]);
     }
@@ -81,18 +72,19 @@ class UserController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  AdminFormRequest  $request
      * @param  int  $id
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    public function update(UserFormRequest $request, $id)
+    public function update(AdminFormRequest $request, $id)
     {
-        $user = User::findOrFail($id);
+        $user = AdminUser::findOrFail($id);
         $user->password = bcrypt($request->password);
         $user->name = $request->name;
         $user->email = $request->email;
         $user->update();
-        return redirect(route("admin.users.index"));
+
+        return redirect("/admin/adminUsers/");
     }
 
     /**
@@ -103,8 +95,8 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        User::destroy($id);
+        AdminUser::destroy($id);
 
-        return redirect(route("admin.users.index"));
+        return redirect("/admin/adminUsers/");
     }
 }

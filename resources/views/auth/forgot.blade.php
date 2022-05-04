@@ -1,4 +1,5 @@
 @extends('auth.layouts.app')
+@section('title', 'Forgot')
 @section('regauth')
     <div class="wrapper">
         @include('pages/header')

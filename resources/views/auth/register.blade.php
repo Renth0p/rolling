@@ -1,4 +1,5 @@
 @extends('auth.layouts.app')
+@section('title', 'Register')
 @section('regauth')
     <div class="striped-container">
         <form action="{{ route("register_process") }}" method="post" class="reg_from">
