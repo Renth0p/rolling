@@ -26,11 +26,6 @@
                 <span class="faq-card-spoiler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare, sem at dictum faucibus, neque nunc pellentesque sem, nec pellentesque tellus ex vel lorem. Vestibulum magna odio, ornare in faucibus.</span>
             </details>
 
-            <h2 class="faq-heading">Still have questions?</h2>
-            <p class="faq-aftertext">If you cannot find answer to your question in our FAQ, you can always<br>
-                contact us. We will answer shortly!
-            </p>
-        </div>
         </div>
         @include('pages.footer')
     </div>

@@ -90,3 +90,40 @@ body, html {
   color: #7F7F7F;
   color: #4B72C2;
 }
+
+.forgot__pass {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.forgot__pass img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 64px;
+  height: 64px;
+}
+.forgot__pass button {
+  margin: 20px auto 40px auto;
+  width: 200px;
+  height: 48px;
+  border: 1px solid #FFFFFF;
+  background: transparent;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.forgot__pass button:hover {
+  background-color: #4B72C2;
+}
+.forgot__pass input {
+  margin: 40px auto 0 auto;
+  width: 800px;
+  height: 48px;
+  padding-left: 20px;
+  background: transparent;
+  border: 1px solid #3D3D3D;
+  outline: none;
+}
+.forgot__pass input:hover {
+  border: 1px solid #4B72C2;
+}
