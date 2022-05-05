@@ -1,9 +1,9 @@
 @extends('admin.auth.app')
-@section('regauth')
+@section('authadmin')
     <div class="striped-container">
         <form method="post" action="{{ route("admin.login_process") }}" class="reg_from">
             @csrf
-            <h1>Sign in</h1>
+            <h1>Admin panel</h1>
             <p class="striped__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam animi assumenda beatae ea eius eveniet, expedita explicabo facere fugiat illo magnam, nihil numquam pariatur quibusdam reiciendis reprehenderit sapiente.</p>
             <input type="text" name="name" placeholder="Login" class="border-gray-800 @error('name') border-red-500 @enderror"><br>
             @error('name')

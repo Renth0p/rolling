@@ -71,5 +71,5 @@
         </section>
         @include('pages.footer')
     </div>
-    <script src="js/timeline.js"></script>
+    <script src="public/js/timeline.js"></script>
 @endsection

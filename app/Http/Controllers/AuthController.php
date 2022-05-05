@@ -46,6 +46,7 @@ class AuthController extends Controller
         return view("auth.forgot");
     }
 
+    // Set mail to .emt to work
     public function forgot(Request $request)
     {
         $data = $request->validate([

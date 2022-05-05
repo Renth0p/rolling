@@ -43,10 +43,10 @@ class IndexController extends Controller
     {
         return view("terms");
     }
-
+    // set mail to .emt to work and set mail in Mail::to
     public function contactForm(ContactFormRequest $request)
     {
-        Mail::to("tofikdipsize1337228@yandex.ru")->send(new ContactForm($validated = $request->validated()));
+        Mail::to("your email")->send(new ContactForm($validated = $request->validated()));
 
         return redirect(route("contacts"));
     }
