@@ -1,25 +1,14 @@
 # Project Rolling
 
 ## Requirements
-_The required bits and bobs of the project (e.g. CMS, Tailwind, etc.)_
+This website use framework Laravel. Also for css we use SCSS and native JavaScript. And to collect the whole site from php and scss we used webpack
 
 ## Project Notes
-_Pertinent high-level information about the project_
-
+Project for collage cooperative work
 
 ## Setup
-_Steps for setting things up, particularly if for a CMS_
+1. Download php 8
+2. Dowload composer
+3. npm install for npm modules
+4. Create database by MySQL
 
-## Front-end Compiling
-_Steps for front-end compiling_
-
-## Files & directories
-_List of key files and directories, how they're organized and used, etc._
-
-
-## Design Notes
-_If needed, pertinent design notes_
-
-
-## Credits
-_Kinda obvious, no? ;)_
